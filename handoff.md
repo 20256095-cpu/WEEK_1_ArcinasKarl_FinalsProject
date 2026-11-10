@@ -1,0 +1,4 @@
+### Target Users of HOMEY
+HOMEY targets local and international travelers, tourists, families, couples, and business professionals who are looking for comfortable, unique, and high-quality accommodations. Its primary audience consists of individuals aged 20–45 who use digital platforms to discover and book places to stay.
+The platform also targets independent property owners and hosts who want to promote their properties and connect with potential guests.
+HOMEY is designed for users who value convenience, transparency, affordability, and quality experiences. It aims to make finding and booking accommodations easier by providing clear pricing, detailed property information, and trustworthy host profiles.
