@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover Stays | HOMEY</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        HOMEY<span>.</span>
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html" class="active">Discover</a>
+        <a href="host.html">Become a Host</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="host.html" class="nav-button">
+        List Your Property
+    </a>
+
+</header>
+
+
+<main>
+
+    <!-- PAGE INTRODUCTION -->
+    <section class="page-hero">
+
+        <p class="eyebrow">EXPLORE HOMEY</p>
+
+        <h1>Find a place that feels right.</h1>
+
+    </section>
+
+
+    <!-- SEARCH SECTION -->
+    <section class="section">
+
+        <form action="discover.html" method="get"
+              class="search-box discover-search">
+
+            <div>
+                <label for="destination">Destination</label>
+                <input
+                    type="text"
+                    id="destination"
+                    name="destination"
+                    placeholder="Where are you going?"
+                >
+            </div>
+
+            <div>
+                <label for="checkin">Check-in</label>
+                <input
+                    type="date"
+                    id="checkin"
+                    name="checkin"
+                >
+            </div>
+
+            <div>
+                <label for="checkout">Check-out</label>
+                <input
+                    type="date"
+                    id="checkout"
+                    name="checkout"
+                >
+            </div>
+
+            <div>
+                <label for="guests">Guests</label>
+                <input
+                    type="number"
+                    id="guests"
+                    name="guests"
+                    min="1"
+                    placeholder="Number of guests"
+                >
+            </div>
+
+            <button type="submit" class="button">
+                Search
+            </button>
+
+        </form>
+
+
+
+        <!-- PROPERTY CATEGORY LINKS -->
+        <section class="section" id="featured">
+
+    <div class="section-title">
+        <div>
+            <span class="eyebrow dark">HANDPICKED FOR YOU</span>
+            <h2>Exceptional places to stay.</h2>
+            <p class="section-description">
+                Discover unique properties hosted by people
+                who love sharing their spaces.
+            </p>
+        </div>
+
+        <a href="discover.html" class="text-link">View all properties →</a>
+    </div>
+
+    <div class="property-grid">
+
+        <article class="property-card">
+            <a href="property.html">
+                <div class="property-image">
+                    <img src="" alt="Villa in Bali">
+                    <span class="verified">✓ Verified</span>
+                </div>
+            </a>
+
+            <div class="property-info">
+                <div class="property-location">Bali, Indonesia</div>
+                <h3>The Palm Estate</h3>
+                <p>Hosted by Daniel · Superhost</p>
+                <p class="details">4 guests · 2 bedrooms · 2 baths</p>
+                <div class="property-bottom">
+                    <strong>₱12,500 <small>/ night</small></strong>
+                    <span>★ 4.98</span>
+                </div>
+                <p class="price-note">Transparent estimated pricing</p>
+            </div>
+        </article>
+
+        <article class="property-card">
+            <a href="property.html">
+                <div class="property-image">
+                    <img src="" alt="Modern home">
+                    <span class="verified">✓ Verified</span>
+                </div>
+            </a>
+
+            <div class="property-info">
+                <div class="property-location">Tagaytay, Philippines</div>
+                <h3>Casa Montagne</h3>
+                <p>Hosted by Andrea · Superhost</p>
+                <p class="details">6 guests · 3 bedrooms · 2 baths</p>
+                <div class="property-bottom">
+                    <strong>₱8,900 <small>/ night</small></strong>
+                    <span>★ 4.95</span>
+                </div>
+                <p class="price-note">Transparent estimated pricing</p>
+            </div>
+        </article>
+
+        <article class="property-card">
+            <a href="property.html">
+                <div class="property-image">
+                    <img src="" alt="Luxury interior">
+                    <span class="verified">✓ Verified</span>
+                </div>
+            </a>
+
+            <div class="property-info">
+                <div class="property-location">Tokyo, Japan</div>
+                <h3>The Tokyo Residence</h3>
+                <p>Hosted by Mika · Independent host</p>
+                <p class="details">2 guests · 1 bedroom · 1 bath</p>
+                <div class="property-bottom">
+                    <strong>₱8,200 <small>/ night</small></strong>
+                    <span>★ 4.96</span>
+                </div>
+                <p class="price-note">Transparent estimated pricing</p>
+            </div>
+        </article>
+
+        <article class="property-card">
+            <a href="property.html">
+                <div class="property-image">
+                    <img src="" alt="Beach house">
+                    <span class="verified">✓ Verified</span>
+                </div>
+            </a>
+
+            <div class="property-info">
+                <div class="property-location">Palawan, Philippines</div>
+                <h3>Azure Coast Villa</h3>
+                <p>Hosted by Sofia · Superhost</p>
+                <p class="details">5 guests · 2 bedrooms · 2 baths</p>
+                <div class="property-bottom">
+                    <strong>₱9,800 <small>/ night</small></strong>
+                    <span>★ 4.99</span>
+                </div>
+                <p class="price-note">Transparent estimated pricing</p>
+            </div>
+        </article>
+
+        <article class="property-card">
+            <a href="property.html">
+                <div class="property-image">
+                    <img src="" alt="Forest cabin">
+                    <span class="verified">✓ Verified</span>
+                </div>
+            </a>
+
+            <div class="property-info">
+                <div class="property-location">Kyoto, Japan</div>
+                <h3>Forest Hideaway</h3>
+                <p>Hosted by Kenji · Independent host</p>
+                <p class="details">3 guests · 2 bedrooms · 1 bath</p>
+                <div class="property-bottom">
+                    <strong>₱7,500 <small>/ night</small></strong>
+                    <span>★ 4.92</span>
+                </div>
+                <p class="price-note">Transparent estimated pricing</p>
+            </div>
+        </article>
+
+        <article class="property-card">
+            <a href="property.html">
+                <div class="property-image">
+                    <img src="" alt="Modern architectural property">
+                    <span class="verified">✓ Verified</span>
+                </div>
+            </a>
+
+            <div class="property-info">
+                <div class="property-location">Amalfi, Italy</div>
+                <h3>Villa Bellavista</h3>
+                <p>Hosted by Marco · Superhost</p>
+                <p class="details">4 guests · 2 bedrooms · 2 baths</p>
+                <div class="property-bottom">
+                    <strong>₱15,000 <small>/ night</small></strong>
+                    <span>★ 4.97</span>
+                </div>
+                <p class="price-note">Transparent estimated pricing</p>
+            </div>
+        </article>
+
+    </div>
+
+
+        <!-- PROPERTY LISTINGS -->
+        <div class="property-grid">
+
+
+           
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-grid">
+
+        <!-- BRAND -->
+        <div class="footer-brand">
+
+            <a href="index.html" class="logo">
+                HOMEY<span>.</span>
+            </a>
+
+            <p>
+                Discover beautiful places to stay around the world.
+                HOMEY connects travelers with unique accommodations
+                and independent property hosts.
+            </p>
+
+        </div>
+
+
+        <!-- EXPLORE LINKS -->
+        <div>
+
+            <h4>Explore</h4>
+
+            <a href="discover.html">Discover Stays</a>
+            <a href="discover.html">Destinations</a>
+            <a href="discover.html">Featured Properties</a>
+
+        </div>
+
+
+        <!-- HOST LINKS -->
+        <div>
+
+            <h4>For Hosts</h4>
+
+            <a href="host.html">Become a Host</a>
+            <a href="host.html">List Your Property</a>
+            <a href="host.html">Hosting Information</a>
+
+        </div>
+
+
+        <!-- COMPANY LINKS -->
+        <div>
+
+            <h4>Company</h4>
+
+            <a href="about.html">About HOMEY</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="contact.html">Help &amp; Support</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 HOMEY. All rights reserved.
+        </span>
+
+        <span>
+            Beautiful stays. Honest prices. Better journeys.
+        </span>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
